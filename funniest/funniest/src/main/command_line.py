@@ -1,4 +1,4 @@
-from . import joke
+from main import joke
 
 
 def main():

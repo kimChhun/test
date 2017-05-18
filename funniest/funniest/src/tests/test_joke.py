@@ -1,9 +1,9 @@
 from unittest import TestCase
 
-import funniest
+import main
 
 
 class TestJoke(TestCase):
     def test_is_string(self):
-        s = funniest.joke()
+        s = main.joke()
         self.assertTrue(isinstance(s, basestring))
